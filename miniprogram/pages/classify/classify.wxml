@@ -1,0 +1,33 @@
+<view class='content-container'>
+   <!-- 搜索 -->
+   <view class="search-input">
+    <view class="search-img">
+     <image class="search-icon" src="../../images/search.png"></image>
+    </view>
+    <view class="search-value">
+      <input class="sou-input" placeholder="搜索"/>
+    </view>
+   </view>
+   <!-- 左侧菜单 -->
+  <view class="main_menu_left">
+     <scroll-view class="left_menu" srcoll-y>
+       <block wx:for="{{leftMenuList}}" wx:key="index">
+          <view class="menu_item{{currentIndex == index ? 'active': ''}}" bindtap="getLeftIndex" data-id="{{item.id}}" data-index="{{index}}">
+            {{item.name}}
+          </view>
+       </block>
+     </scroll-view>
+  </view> 
+  <view class="main_menu_right">
+     <scroll-view class="right_menu" scroll-y scroll-into-view="{{toView}}" scroll-with-animation="true">
+       <block wx:for="{{cagMenuList}}" wx:key="index">
+         <view class="cata_box">
+           <view>
+             <image mode="aspectFill" src="{{item.image}}" class="cata_image" bindtap="goToVideo"></image>
+             <text class="cata_text">{{item.cate}}</text>
+           </view>
+         </view>
+       </block>
+     </scroll-view>
+  </view>  
+</view>

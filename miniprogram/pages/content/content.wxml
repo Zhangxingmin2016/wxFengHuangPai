@@ -1,0 +1,51 @@
+<view class='content-container'>
+  <view>
+   <!-- 搜索 -->
+   <view class="search-input">
+    <view class="search-img">
+     <image class="search-icon" src="../../images/search.png"></image>
+    </view>
+    <view class="search-value">
+      <input class="sou-input" placeholder="搜索"/>
+    </view>
+   </view>
+   <view class="weui-add">
+     <image class="add-image" src="../../images/add.png"></image>
+   </view>
+   <view class="weui-modle-content" bindtap="goToDetail">
+     <image class="modle-image" src="../../images/image1.png"></image>
+     <text class="title">乐玩专区</text>
+   </view>
+   <view class="weui-modle-content" bindtap="goToDetail">
+     <image class="modle-image" src="../../images/image2.jpg"></image>
+     <text class="title">品鉴专区</text>
+   </view>
+   <view class="weui-modle-content" bindtap="goToDetail">
+     <image class="modle-image" src="../../images/image3.jpg"></image>
+     <text class="title">好物专区</text>
+   </view>
+   <view class="weui-three-content">
+     <view class="weui-partOne" bindtap="goToDetail">
+      <image class="partOne-image" src="../../images/image4.png"></image>
+     </view>
+     <view class="weui-partTwo" bindtap="goToDetail">
+      <view class="weui-partTwo-one">
+        <image class="partTwo-image" src="../../images/image5.png"></image>
+      </view>
+      <view class="weui-partTwo-two" bindtap="goToDetail">
+        <image class="partTwo-image" src="../../images/image6.png"></image>
+      </view>
+     </view>
+   </view>
+   <!-- 轮播广告区 -->
+   <view class="page-swiper">
+     <swiper class="banner" autoplay="true" indicator-dots="true" >
+      <view wx:for="{{imgUrl}}" wx:key="*this">
+        <swiper-item>
+          <image src="{{item.url}}" data-src="{{item.value}}" class="banner-img"></image>
+        </swiper-item>
+      </view>
+     </swiper>
+   </view>
+  </view>
+</view>

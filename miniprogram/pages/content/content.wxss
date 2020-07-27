@@ -1,0 +1,130 @@
+.search-input{
+  width: 90%;
+  background-color: #F7F7F7;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  display: flex;
+  align-items: center;
+  border-radius: 10rpx;
+}
+.search-img {
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 13rpx;
+}
+.search-icon{
+  width: 40rpx;
+  height: 40rpx
+}
+.search {
+  width: 60rpx;
+  height: 30rpx;
+}
+.search-value {
+  width: 70%;
+  display: inline-block;
+}
+.sou-input {
+  font-size: 28rpx;
+}
+.weui-add{
+  width: 96%;
+  height:200rpx;
+  margin: 0 auto;
+}
+.add-image{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  /* height: auto; */
+}
+.weui-modle-content{
+  width: 96%;
+  height:260rpx;
+  color: #000;
+  font-size: 2fr;
+  margin: 30rpx 2%;
+  position: relative;
+}
+.modle-image{
+  display: flex;
+  width: 100%;
+  height: 260rpx;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 12rpx;
+}
+.weui-modle-content .title{
+  position: absolute;
+  top: 96rpx;
+  left: 60rpx;
+  color: #ccc;
+  font-weight: bold;
+  font-size: 40rpx;
+  letter-spacing: 8rpx;
+}
+.weui-three-content{
+  display: flex;
+  width: 96%;
+  height:300rpx;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.weui-partOne{
+  width: 49%;
+  height: 100%;
+  margin-right: 1%;
+}
+.partOne-image{
+  display: flex;
+  width: 100%;
+  height: 320rpx;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12rpx;
+}
+.weui-partTwo{
+  width: 49%;
+  height: 100%;
+  margin-left: 1%;
+  display: flex;
+  flex-direction: column;
+}
+.partTwo-image{
+  display: flex;
+  width: 100%;
+  height: 155rpx;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12rpx;
+}
+.weui-partTwo-one{
+  width: 100%;
+  height: 155rpx;
+  margin-bottom: 5rpx;
+}
+.weui-partTwo-two{
+  width: 100%;
+  height: 155rpx;
+  margin-top: 10rpx;
+}
+.page-swiper{
+  width: 96%;
+  height: 300rpx;
+  margin: 50rpx auto 10rpx;
+}
+.banner-img{
+  display: flex;
+  width: 100%;
+  height: 300rpx;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12rpx;
+}

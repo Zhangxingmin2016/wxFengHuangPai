@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/content/content",
+    "pages/personal/personal",
+    "pages/classify/classify",
+    "pages/video/video",
+    "pages/detail/detail",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "内蒙古自助游",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#313132",
+    "selectedColor": "#313132",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/content/content",
+        "text": "首页",
+        "iconPath": "images/5937650018fdd.png",
+        "selectedIconPath": "images/5937650019037.png"
+      },
+      {
+        "pagePath": "pages/content/content",
+        "text": "乐玩",
+        "iconPath": "images/5937650031840.png",
+        "selectedIconPath": "images/5937650031890.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": " 分类",
+        "iconPath": "images/classify.png",
+        "selectedIconPath": "images/classify_active.png"
+      },
+      {
+        "pagePath": "pages/content/content",
+        "text": "好物",
+        "iconPath": "images/5937650031840.png",
+        "selectedIconPath": "images/5937650031890.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "images/593765004c6a4.png",
+        "selectedIconPath": "images/593765004c6fb.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

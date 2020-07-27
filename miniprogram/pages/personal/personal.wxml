@@ -1,0 +1,78 @@
+<view class="container-content">
+  <view class="box-banner">
+     <view class="banner-left">
+        <image class="banner-image" src="http://thirdwx.qlogo.cn/mmopen/V51nvT936pibwnuSQjUL8Hgr9rv0Duo3PKF29WYzj9dkvP7PCsH5KjLicj8eZUU6GqPdz4WRmNuLFHMDjWpPbqroBvHuFzql2X/132"></image>
+     </view>
+     <view class="banner-right">
+        <text>消息</text>
+        <image class="message-icon" src="../../images/message.png"></image>
+     </view>
+  </view>
+  <view class="personal-message">
+    <view class="msg-name">
+      <text class="name">{{userInfo}}</text>
+      <text class="des">小蒙古是我在东莞朋友圈的外号， 希望我的咨讯能影响你带你一起去草原飞</text>
+    </view>
+    <view class="msg-box">
+      <text>小蒙古</text><text>草原</text><text>原始森林</text> <text>80后</text>
+    </view>
+   </view>
+   <view class="msg-box1">
+      <view class="msg-box1-modle">
+         <text class="num">1</text>
+         <text>关注者</text>
+      </view>
+      <view class="msg-box1-modle">
+         <text class="num">1</text>
+         <text>视频</text>
+      </view>
+      <view class="msg-box1-modle">
+         <text class="num">4</text>
+         <text>频道</text>
+      </view>
+   </view>
+   <view class="mag-box2">
+     <text>主人的作品</text>
+   </view>
+   <view class="msg-box3">
+     <view class="box3-modle">
+       <view class="date">
+        <text class="day">20</text>
+        <text class="mouth">十月</text> 
+        <text class="year">2019</text> 
+       </view>
+       <view class="box3-image">
+        <image src="../../images/image7.jpg"></image>
+       </view>
+       <view class="box3-des">
+       <text>内蒙古7日自驾游</text>
+       </view>
+     </view>
+      <view class="box3-modle">
+       <view class="date">
+        <text class="day">12</text>
+        <text class="mouth">二月</text> 
+        <text class="year">2018</text> 
+       </view>
+       <view class="box3-image">
+        <image mode="aspectFill" src="../../images/image7.jpg"></image>
+       </view>
+       <view class="box3-des">
+       <text>内蒙古3日自驾游</text>
+       </view>
+     </view>
+      <view class="box3-modle">
+       <view class="date">
+        <text class="day">26</text>
+        <text class="mouth">十二月</text> 
+        <text class="year">2016</text> 
+       </view>
+       <view class="box3-image">
+        <image src="../../images/image7.jpg"></image>
+       </view>
+       <view class="box3-des">
+       <text>内蒙古5日自驾游</text>
+       </view>
+     </view>
+   </view>
+</view>

@@ -1,0 +1,61 @@
+<view class='content-container'>
+  <view>
+    <view class="modle-box">
+        <view class="banner">
+          <view class="banner-left">
+            <image class="banner-image" src="http://thirdwx.qlogo.cn/mmopen/V51nvT936pibwnuSQjUL8Hgr9rv0Duo3PKF29WYzj9dkvP7PCsH5KjLicj8eZUU6GqPdz4WRmNuLFHMDjWpPbqroBvHuFzql2X/132"></image>
+          </view>
+          <view class="banner-right">
+          <text class="banner-right-top">Feng 十二月26</text>
+          <text class="banner-right-bom">内蒙古7日自驾游</text>
+          </view>
+        </view>
+        <view class="content">
+          <image class="content-img" src="../../images/detail_common.png" bindtap="goToVideo"></image>
+          <text class="content-des">简介： 这个产品也不错， 小编没有描述一下吗？</text>
+        </view>
+        <view class="message">
+          <text class="msg-top">129 参与 ∙ 333凤币 ∙ 1.5万+观看</text>
+          <text class="msg-bom">来自 ∙  文章分类 > 乐玩</text>
+        </view>
+    </view>
+    <view class="modle-box">
+      <view class="banner">
+        <view class="banner-left">
+          <image class="banner-image" src="http://thirdwx.qlogo.cn/mmopen/V51nvT936pibwnuSQjUL8Hgr9rv0Duo3PKF29WYzj9dkvP7PCsH5KjLicj8eZUU6GqPdz4WRmNuLFHMDjWpPbqroBvHuFzql2X/132"></image>
+        </view>
+        <view class="banner-right">
+         <text class="banner-right-top">Feng 十二月26</text>
+         <text class="banner-right-bom">内蒙古7日自驾游</text>
+        </view>
+      </view>
+      <view class="content">
+        <image  bindtap="goToVideo" class="content-img" src="../../images/detail_common.png"></image>
+        <text class="content-des">简介： 这个产品也不错， 小编没有描述一下吗？</text>
+      </view>
+      <view class="message">
+        <text class="msg-top">129 参与 ∙ 333凤币 ∙ 1.5万+观看</text>
+        <text class="msg-bom">来自 ∙  文章分类 > 乐玩</text>
+      </view>
+    </view>
+    <view class="modle-box">
+      <view class="banner">
+        <view class="banner-left">
+          <image class="banner-image" src="http://thirdwx.qlogo.cn/mmopen/V51nvT936pibwnuSQjUL8Hgr9rv0Duo3PKF29WYzj9dkvP7PCsH5KjLicj8eZUU6GqPdz4WRmNuLFHMDjWpPbqroBvHuFzql2X/132"></image>
+        </view>
+        <view class="banner-right">
+         <text class="banner-right-top">Feng 十二月26</text>
+         <text class="banner-right-bom">内蒙古7日自驾游</text>
+        </view>
+      </view>
+      <view class="content">
+        <image  bindtap="goToVideo" class="content-img" src="../../images/detail_common.png"></image>
+        <text class="content-des">简介： 这个产品也不错， 小编没有描述一下吗？</text>
+      </view>
+      <view class="message">
+        <text class="msg-top">129 参与 ∙ 333凤币 ∙ 1.5万+观看</text>
+        <text class="msg-bom">来自 ∙  文章分类 > 乐玩</text>
+      </view>
+    </view>    
+  </view>
+</view>
