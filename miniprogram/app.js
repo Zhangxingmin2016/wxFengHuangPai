@@ -14,11 +14,6 @@ App({
         traceUser: true,
       })
     }
-    wx.cloud.callFunction({
-      name: 'login'
-    }).then( res=>{
-      console.log('云函数的调用', res)
-    })
      // 展示本地存储能力
      var logs = wx.getStorageSync('logs') || []
      logs.unshift(Date.now())

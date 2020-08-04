@@ -34,7 +34,15 @@
 .weui-add{
   width: 96%;
   height:200rpx;
+  line-height: 200px;
   margin: 0 auto;
+  color: blue;
+  font-size: 40rpx;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
 }
 .add-image{
   display: flex;

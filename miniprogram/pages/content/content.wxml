@@ -10,21 +10,20 @@
     </view>
    </view>
    <view class="weui-add">
-     <image class="add-image" src="../../images/add.png"></image>
+     <!-- <image class="add-image" src="../../images/add.png"></image> -->
+      凤凰东莞派，品质优选官
    </view>
-   <view class="weui-modle-content" bindtap="goToDetail">
-     <image class="modle-image" src="../../images/image1.png"></image>
-     <text class="title">乐玩专区</text>
+      <!-- 轮播广告区 -->
+   <view class="page-swiper">
+     <swiper class="banner" autoplay="true" indicator-dots="true" >
+      <view wx:for="{{imgUrl}}" wx:key="*this">
+        <swiper-item>
+          <image src="{{item.url}}" data-src="{{item.value}}" class="banner-img"></image>
+        </swiper-item>
+      </view>
+     </swiper>
    </view>
-   <view class="weui-modle-content" bindtap="goToDetail">
-     <image class="modle-image" src="../../images/image2.jpg"></image>
-     <text class="title">品鉴专区</text>
-   </view>
-   <view class="weui-modle-content" bindtap="goToDetail">
-     <image class="modle-image" src="../../images/image3.jpg"></image>
-     <text class="title">好物专区</text>
-   </view>
-   <view class="weui-three-content">
+     <view class="weui-three-content">
      <view class="weui-partOne" bindtap="goToDetail">
       <image class="partOne-image" src="../../images/image4.png"></image>
      </view>
@@ -37,15 +36,17 @@
       </view>
      </view>
    </view>
-   <!-- 轮播广告区 -->
-   <view class="page-swiper">
-     <swiper class="banner" autoplay="true" indicator-dots="true" >
-      <view wx:for="{{imgUrl}}" wx:key="*this">
-        <swiper-item>
-          <image src="{{item.url}}" data-src="{{item.value}}" class="banner-img"></image>
-        </swiper-item>
-      </view>
-     </swiper>
+   <view class="weui-modle-content" bindtap="goToDetail">
+     <image class="modle-image" src="../../images/image1.png"></image>
+     <text class="title">乐玩专区</text>
+   </view>
+   <view class="weui-modle-content" bindtap="goToDetail">
+     <image class="modle-image" src="../../images/image2.jpg"></image>
+     <text class="title">品鉴专区</text>
+   </view>
+   <view class="weui-modle-content" bindtap="goToDetail">
+     <image class="modle-image" src="../../images/image3.jpg"></image>
+     <text class="title">好物专区</text>
    </view>
   </view>
 </view>

@@ -3,7 +3,8 @@
      <view class="page-video">
         <video
           id="myVideo"
-          src="https://ugcydzd.qq.com/uwMROfz2r5zBIaQXGdGnC2dfDma3J1MItM3912IN4IRQvkRM/p0965nf0nk8.mp4?sdtfrom=v1010&guid=4ec5b4f55689f261e80af0278a3d0140&vkey=7B0D4FFF1E9F9D38B0EBA39CC74DB29DDF3AF143DE800889DA1402387F148D97F940806F4522610D9DA1C6974AFC1DD2EC9F0176EA0ED9DD69D8A7D06C1A766B43AC841D1D37F7DA026196829B98420A999B9569807DC897C535D244378F68A2692B35BCB94B45E6A95550D660A55032C66903FF1DD8F808933B32481A01CD62"
+          object-fit="cover"
+          src="{{videoSrc}}"
           autoplay="true"
           controls
           muted="false"
@@ -15,34 +16,53 @@
      <view class="video-msg">
       <text class="video-title">内蒙古7日自驾游</text>
       <view class="video-main">
-        <text>六月04 <text style="font-size: 24rpx; color: red;">6.2万</text> 次观看</text>
+        <text>六月04 • 10万+次观看</text>
         <text>这是个新产品， 有很多意外惊喜，等着你去发现。</text>
-        <text>来自频道  文章分类 > 乐玩</text>
+        <text>
+           来自频道 <text style="color: #fd4341;">文章分类 > 乐玩</text> 
+          </text>
       </view>
      </view>
-
    </view>
    <view class="personal-content">
       <view class="personal-left">
          <view class="banner-left">
-            <image class="banner-image" src="http://thirdwx.qlogo.cn/mmopen/V51nvT936pibwnuSQjUL8Hgr9rv0Duo3PKF29WYzj9dkvP7PCsH5KjLicj8eZUU6GqPdz4WRmNuLFHMDjWpPbqroBvHuFzql2X/132"></image>
+            <image class="banner-image" bindtap="goToTourist" src="http://thirdwx.qlogo.cn/mmopen/V51nvT936pibwnuSQjUL8Hgr9rv0Duo3PKF29WYzj9dkvP7PCsH5KjLicj8eZUU6GqPdz4WRmNuLFHMDjWpPbqroBvHuFzql2X/132"></image>
          </view>
          <view class="banner-right">
             <text class="name">Eagle</text>
-            <text class="banner-right-mid">80后 天蝎座程序员内蒙古</text>
-            <text class="banner-right-bom">内蒙古7日自驾游</text>
+            <text class="banner-right-mid">80后 • 天蝎座 | 理想主义者 | 内蒙古</text>
+            <text class="banner-right-bom">130个视频 | 10万关注</text>
          </view>
       </view>
-      <view>
+      <view style="margin-right: 20rpx;">
         <button type="primary" class="personal-btn">+关注</button>
       </view>
    </view>
    <view class="content-box">
-    <view class="title">
-      <text>活动详情</text>
+    <view class="comment-result">
+      <text style="color: #fff;"> 200 评论</text><text> • 10万+ 赞</text>
     </view>
-    <view class="content">
-      方案起草当中。。。。
+    <view class="comment-msg" wx:for="{{commentList}}" wx:key="index">
+      <view class="comment-left">
+        <image class="image" bindtap="goToTourist" src="http://thirdwx.qlogo.cn/mmopen/V51nvT936pibwnuSQjUL8Hgr9rv0Duo3PKF29WYzj9dkvP7PCsH5KjLicj8eZUU6GqPdz4WRmNuLFHMDjWpPbqroBvHuFzql2X/132"></image>
+      </view>
+      <view class="comment-right">
+        <text class="name" >{{item.name}}</text>
+        <text class="msg">{{item.message}}</text>
+      </view>
     </view>
    </view>
+   <!-- <view>
+      <button type="primary" class="upload-btn" bindtap="onUpload">上传图片</button>
+      <button type="primary" class="upload-btn" bindtap="cloudFile">提交图片到服务器</button>
+      <button type="primary" class="upload-btn" bindtap="getVideo">上传视频</button>
+      <button type="primary" class="upload-btn" bindtap="cloudVideo">提交视频到服务器</button>
+   </view>
+   <view class="picOut">
+     <view class="picOut-item" wx:for="{{fileList}}" wx:key="index" style="width: {{imgWth}}px; height: {{imgWth}}px;">
+        <image mode="aspectFill" src="{{item}}"></image>
+        <view class="close" bindtap="onClose" data-id="{{index}}">×</view>
+     </view>
+   </view> -->
 </view>

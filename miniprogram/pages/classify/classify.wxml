@@ -20,11 +20,16 @@
   </view> 
   <view class="main_menu_right">
      <scroll-view class="right_menu" scroll-y scroll-into-view="{{toView}}" scroll-with-animation="true">
+       <view class="weui-add">
+              <!-- <image class="add-image" src="../../images/add.png"></image> -->
+                文旅线路推广
+      </view>
        <block wx:for="{{cagMenuList}}" wx:key="index">
          <view class="cata_box">
            <view>
              <image mode="aspectFill" src="{{item.image}}" class="cata_image" bindtap="goToVideo"></image>
-             <text class="cata_text">{{item.cate}}</text>
+             <text class="cata_text">标题：{{item.cate}}</text>
+             <text class="cata_name">作者：伯源 | 点赞数: 10万</text>
            </view>
          </view>
        </block>

@@ -1,0 +1,80 @@
+<view class="container-content">
+  <view class="box-banner">
+     <view class="banner-left">
+        <image class="banner-image" src="../../images/head_pic.jpg"></image>
+     </view>
+     <view class="banner-right">
+        <button type="primary" class="personal-btn">+关注</button>
+     </view>
+  </view>
+  <view class="personal-message">
+    <view class="msg-name">
+      <text class="name">伯源</text>
+      <text class="des">东莞 - 凤凰网，自身编辑，游玩达人，摄影爱好者</text>
+    </view>
+    <view class="msg-box">
+      <text>80后</text><text>东莞</text><text>摄影</text>
+    </view>
+   </view>
+   <view class="msg-box1">
+      <view class="msg-box1-modle">
+         <text class="num">1</text>
+         <text>关注者</text>
+      </view>
+      <view class="msg-box1-modle">
+         <text class="num">1</text>
+         <text>视频</text>
+      </view>
+      <view class="msg-box1-modle">
+         <text class="num">4</text>
+         <text>频道</text>
+      </view>
+   </view>
+   <view class="mag-box2">
+     <text>文章</text>  <text>视频</text>
+   </view>
+   <view class="msg-box3">
+     <view class="box3-modle">
+       <view class="date">
+        <text class="day">20</text>
+        <text class="mouth">十月</text> 
+        <text class="year">2019</text> 
+       </view>
+       <view class="box3-image">
+        <image src="../../images/image1.png"></image>
+       </view>
+       <view class="box3-des">
+       <text>东莞品质7日自驾游</text>
+       <text class="cata_name">作者：伯源 | 点赞数: 10万</text>
+       </view>
+     </view>
+      <view class="box3-modle">
+       <view class="date">
+        <text class="day">12</text>
+        <text class="mouth">二月</text> 
+        <text class="year">2018</text> 
+       </view>
+       <view class="box3-image">
+        <image mode="aspectFill" src="../../images/image5.png"></image>
+       </view>
+       <view class="box3-des">
+       <text>东莞品质3日自驾游</text>
+       <text class="cata_name">作者：伯源 | 点赞数: 10万</text>
+       </view>
+     </view>
+      <view class="box3-modle">
+       <view class="date">
+        <text class="day">26</text>
+        <text class="mouth">十二月</text> 
+        <text class="year">2016</text> 
+       </view>
+       <view class="box3-image">
+        <image src="../../images/image4.png"></image>
+       </view>
+       <view class="box3-des">
+         <text>东莞品质5日自驾游</text>
+         <text class="cata_name">作者：伯源 | 点赞数: 10万</text>
+       </view>
+     </view>
+   </view>
+</view>

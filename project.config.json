@@ -30,9 +30,10 @@
 	},
 	"appid": "wx51f77ccb48eec01c",
 	"projectname": "%E5%86%85%E8%92%99%E5%8F%A4%E8%87%AA%E5%8A%A9%E6%B8%B8",
-	"libVersion": "2.8.1",
+	"libVersion": "2.10.4",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
 	"condition": {
 		"search": {
 			"current": -1,

@@ -89,8 +89,24 @@
 .cata_text{
   display: inline-block;
   width: 100%;
-  font-size: 24rpx;
+  font-size: 22rpx;
   color: #333;
+}
+.cata_name{
+  font-size: 22rpx;
+  color: #333;
+  margin: 5rpx 0;
+}
+.weui-add{
+  width: 96%;
+  height:200rpx;
+  line-height: 200px;
   margin: 0 auto;
+  color: blue;
+  font-size: 40rpx;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
 }

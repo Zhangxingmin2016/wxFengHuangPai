@@ -23,6 +23,9 @@ Page({
   goToVideo:function(e){
     wx.navigateTo({ url: '/pages/video/video'})
   },
+  goToTourist:function(e){
+    wx.navigateTo({ url: '/pages/tourist/tourist'})
+  },
   
   /**
    * 生命周期函数--监听页面加载

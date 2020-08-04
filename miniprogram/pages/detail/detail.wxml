@@ -1,13 +1,13 @@
 <view class='content-container'>
   <view>
     <view class="modle-box">
-        <view class="banner">
+        <view class="banner" bindtap="goToTourist">
           <view class="banner-left">
-            <image class="banner-image" src="http://thirdwx.qlogo.cn/mmopen/V51nvT936pibwnuSQjUL8Hgr9rv0Duo3PKF29WYzj9dkvP7PCsH5KjLicj8eZUU6GqPdz4WRmNuLFHMDjWpPbqroBvHuFzql2X/132"></image>
+            <image class="banner-image" src="../../images/head_pic.jpg"></image>
           </view>
           <view class="banner-right">
-          <text class="banner-right-top">Feng 十二月26</text>
-          <text class="banner-right-bom">内蒙古7日自驾游</text>
+          <text class="banner-right-top">伯源（乐玩达人）</text>
+          <!-- <text class="banner-right-bom">内蒙古7日自驾游</text> -->
           </view>
         </view>
         <view class="content">
@@ -20,13 +20,13 @@
         </view>
     </view>
     <view class="modle-box">
-      <view class="banner">
+      <view class="banner" bindtap="goToTourist">
         <view class="banner-left">
-          <image class="banner-image" src="http://thirdwx.qlogo.cn/mmopen/V51nvT936pibwnuSQjUL8Hgr9rv0Duo3PKF29WYzj9dkvP7PCsH5KjLicj8eZUU6GqPdz4WRmNuLFHMDjWpPbqroBvHuFzql2X/132"></image>
+          <image class="banner-image" src="../../images/head_pic.jpg"></image>
         </view>
         <view class="banner-right">
-         <text class="banner-right-top">Feng 十二月26</text>
-         <text class="banner-right-bom">内蒙古7日自驾游</text>
+         <text class="banner-right-top">韶峰（品质官）</text>
+         <!-- <text class="banner-right-bom"></text> -->
         </view>
       </view>
       <view class="content">
@@ -39,13 +39,13 @@
       </view>
     </view>
     <view class="modle-box">
-      <view class="banner">
+      <view class="banner" bindtap="goToTourist">
         <view class="banner-left">
-          <image class="banner-image" src="http://thirdwx.qlogo.cn/mmopen/V51nvT936pibwnuSQjUL8Hgr9rv0Duo3PKF29WYzj9dkvP7PCsH5KjLicj8eZUU6GqPdz4WRmNuLFHMDjWpPbqroBvHuFzql2X/132"></image>
+          <image class="banner-image" src="../../images/head_pic.jpg"></image>
         </view>
         <view class="banner-right">
-         <text class="banner-right-top">Feng 十二月26</text>
-         <text class="banner-right-bom">内蒙古7日自驾游</text>
+         <text class="banner-right-top">陈兴军（游玩达人）</text>
+         <!-- <text class="banner-right-bom">内蒙古7日自驾游</text> -->
         </view>
       </view>
       <view class="content">
