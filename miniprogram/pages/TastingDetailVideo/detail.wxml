@@ -1,0 +1,95 @@
+<view class='content-container'>
+  <view class="zw-word">
+     <text class="n-title">远观城市灯火，这间西餐厅贩售生活美学</text>
+     <view class="n-infor">
+        <view class="n-i-left">
+          <view class="n-i-logo">凤</view>
+          <view class="n-i-st">
+            <text class="n-i-source">凤凰网广东综合</text>
+            <text class="n-i-time">2020/07/25 07:43</text>
+          </view>
+        </view>
+       <view class="n-i-subscribe">
+         <image src="https://p0.ifengimg.com/a/2017/1116/subscribe.png"></image>
+       </view>
+     </view>
+     <view class="page-video">
+        <video
+          id="myVideo"
+          object-fit="cover"
+          src="{{videoSrc}}"
+          autoplay="true"
+          controls
+          muted="false"
+          show-mute-btn="false"
+          enable-play-gesture="true"
+        >
+        </video>
+     </view>
+     <view class="n-words">
+       <text>坐标寸土寸金的CBD，露台天光开阔，一间不太一样的西餐，不期而遇。The House坐拥城市繁华景致，贩售的却是美学生活，当属最佳治愈系。有的人被一杯咖啡治愈，也有人从微小细节的西餐中发现了城市的美好。</text>
+     </view>
+     <view class="n-detailPic">
+       <image src="http://x0.ifengimg.com/cmpp/2020_22/be566c4da46f411_size527_w1207_h679.png"></image>
+     </view>   
+     <view class="n-words">
+       <text>The House的理念是打造一家融合不同生活元素的美学生活馆。餐厅门口呈屋顶形状，原木高级质感的环境点缀着暖黄的吊灯，灯光璀璨如星辰般。整体装修风格呈简约现代风，加入花艺元素，无处不在提现生活之美。露台偌大空间很适合派对、宴会活动，待天气疏朗的时候，风一吹，露台更能唤醒内心对美好的向往。</text>
+     </view>
+     <view class="n-detailPic">
+       <image src="http://x0.ifengimg.com/cmpp/2020_22/46eeb21334b5f20_size752_w1207_h679.png"></image>
+     </view> 
+     <view class="n-detailPic">
+       <image src="http://x0.ifengimg.com/cmpp/2020_22/d334e0bd96c80d7_size729_w812_h541.png"></image>
+     </view> 
+     <view class="n-words">
+       <text>The House创始人Kevin把世界各国的优质食材带回来，就想要你吃到它本真的样子，并让意式菜肴结合美食摆盘，让西餐以分享的形式，打破人与人之间隔阂感，营造轻松交流的氛围。可以说The House讲究的是分享的乐趣，一群人前往，更是喜悦。</text>
+     </view>
+     <view class="n-detailPic">
+       <image src="http://x0.ifengimg.com/cmpp/2020_22/0d980aeffa4255f_size529_w1268_h845.png" style="height: 406rpx;"></image>
+     </view> 
+     <view class="n-words">
+       <text>凤凰网广东发自东莞</text>
+     </view>
+     <view class="n-words">
+       <text>撰文：卢咏薇</text>
+     </view>
+     <view class="n-words">
+       <text>摄影：王协宜</text>
+     </view>
+     <view class="n-words">
+       <text>视频：叶浩标 王协宜</text>
+     </view>
+      <view class="n-words">
+       <text>编辑：卢咏薇</text>
+     </view>
+  </view>
+  <view class="personal-content">
+      <view class="personal-left">
+         <view class="banner-left">
+            <image class="banner-image" bindtap="goToTourist" src="http://thirdwx.qlogo.cn/mmopen/V51nvT936pibwnuSQjUL8Hgr9rv0Duo3PKF29WYzj9dkvP7PCsH5KjLicj8eZUU6GqPdz4WRmNuLFHMDjWpPbqroBvHuFzql2X/132"></image>
+         </view>
+         <view class="banner-right">
+            <text class="name">邵峰（品质官）</text>
+            <text class="banner-right-mid">80后 • 天蝎座 | 理想主义者 | 东莞</text>
+            <text class="banner-right-bom">10个视频 | 1万关注</text>
+         </view>
+      </view>
+      <view style="margin-right: 20rpx;">
+        <button type="primary" class="personal-btn">+关注</button>
+      </view>
+   </view>
+   <view class="content-box">
+    <view class="comment-result">
+      <text style="color: #000;"> 20 评论</text><text> • 20 赞</text>
+    </view>
+    <view class="comment-msg" wx:for="{{commentList}}" wx:key="index">
+      <view class="comment-left">
+        <image class="image" bindtap="goToTourist" src="http://thirdwx.qlogo.cn/mmopen/V51nvT936pibwnuSQjUL8Hgr9rv0Duo3PKF29WYzj9dkvP7PCsH5KjLicj8eZUU6GqPdz4WRmNuLFHMDjWpPbqroBvHuFzql2X/132"></image>
+      </view>
+      <view class="comment-right">
+        <text class="name" >{{item.name}}</text>
+        <text class="msg">{{item.message}}</text>
+      </view>
+    </view>
+   </view>
+</view>

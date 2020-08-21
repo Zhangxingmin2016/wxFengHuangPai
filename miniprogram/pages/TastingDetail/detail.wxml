@@ -1,0 +1,60 @@
+<view class='content-container'>
+  <view class="zw-word">
+     <text class="n-title">影院重启，久别重逢！ 《多力特的奇幻冒险》中国首映</text>
+     <view class="n-infor">
+        <view class="n-i-left">
+          <view class="n-i-logo">凤</view>
+          <view class="n-i-st">
+            <text class="n-i-source">凤凰网广东综合</text>
+            <text class="n-i-time">2020/07/25 07:43</text>
+          </view>
+        </view>
+       <view class="n-i-subscribe">
+         <image src="https://p0.ifengimg.com/a/2017/1116/subscribe.png"></image>
+       </view>
+     </view>
+     <view class="n-words">
+       <text>当熟悉的龙标跃然在银屏中，城市的热闹欢腾终于回归；七月末，我们和电影院久别重逢。7月24日周五晚上，凰家品鉴团的影迷们走进华夏影城（家汇店）CINITY影厅，观看《多力特的奇幻冒险》，开始了一段不同寻常的电影时光。</text>
+     </view>
+     <view class="n-detailPic">
+       <image src="http://x0.ifengimg.com/cmpp/2020_30/8514459c3067622_size94_w590_h393.jpg"></image>
+       <text>粉丝入座</text>
+     </view>   
+     <view class="n-words">
+       <text>全国影院时隔半年复工，这是所有电影人、影迷都在期待的时刻，这多么来之不易，等了这么久，终于等到了这一天!这个晚上，影迷们早早就戴好口罩，排队出示粤康码，测量体温，填写个人信息……只为了这个重逢的时刻。</text>
+     </view>
+     <view class="n-detailPic">
+       <image src="http://x0.ifengimg.com/cmpp/2020_30/49993d52daba7e3_size75_w590_h393.jpg"></image>
+       <text>粉丝入场前登记信息</text>
+     </view> 
+     <view class="n-words">
+       <text class="n-title">《多力特的奇幻冒险》突破想象、笑料不断</text>
+       <text>由环球影业重磅打造的奇幻冒险巨制《多力特的奇幻冒险》于7月24日在中国首次正式上映，这是一部cg含量很高的奇幻电影，其中电脑特效占了很大比例，制作成本高达1.75亿美元，突破奇幻冒险类型电影的想象力边界。除了熠熠生辉的巨额资金外，演员阵容十分耀眼，极度奢华，是不容错过英国超级大片。</text>
+     </view>
+     <view class="n-detailPic">
+       <image src="http://x0.ifengimg.com/cmpp/2020_30/3b42468c2af7e50_size69_w590_h273.jpg" style="height: 282rpx;"></image>
+     </view> 
+     <view class="n-words">
+       <text>作为好莱坞一哥，唐尼的作品基本不用再一一细数，无论是他最经典的《钢铁侠》三部曲系还是《复仇者联盟》，有颜，有钱，有演技，有作品，可以说唐尼是大家心目中最完美成功男人的形象。除了唐尼以外，更包括荷兰弟配音的狗狗，电影光是配音演员就动用了五位奥斯卡得主和十几个提名的卡司阵容。</text>
+     </view>
+     <view class="n-detailPic">
+       <image src="http://x0.ifengimg.com/cmpp/2020_30/aa9dc5043cd9de3_size207_w590_h935.jpg" style="height: 966rpx;"></image>
+     </view> 
+     <view class="n-words">
+       <text>剧情讲述一位性格古怪、却拥有出色医疗技术闻名的兽医约翰·杜立德，他对动物的医疗研究在英国上层社会家喻户晓，并被英女王赋予了一块土地，在此建造了他的城堡和动物园。他于一场意外失去妻子后的7年中，约翰·杜立德医生把自己关在杜立德庄园的高墙之内与一群珍奇异兽相伴。在女王被下毒陷害，生命垂危之际，多力特再次被英国皇室唤回，为治疗女王的疾病他被迫走上了导致妻子身亡的探险之旅，寻找包治百病的伊甸树果。</text>
+     </view>
+     <view class="n-detailPic">
+       <image src="http://x0.ifengimg.com/cmpp/2020_30/273ef432bf180fe_size109_w590_h400.jpg"></image>
+       <text>粉丝入场前登记信息</text>
+     </view>
+     <view class="n-words">
+       <text>凤凰网广东发自东莞</text>
+     </view>
+     <view class="n-words">
+       <text>撰文：卢咏薇</text>
+     </view>
+    <view class="n-words">
+       <text>摄影：麦芷茵、莫彦琦</text>
+     </view>
+  </view>
+</view>

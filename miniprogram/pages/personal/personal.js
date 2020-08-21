@@ -26,6 +26,9 @@ Page({
       hasUserInfo: true
     })
   },
+  goToVideo:function(e){
+    wx.navigateTo({ url: '/pages/video/video'})
+  },
   /**
    * 生命周期函数--监听页面加载
    */

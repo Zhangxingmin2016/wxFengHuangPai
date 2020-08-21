@@ -23,30 +23,21 @@
       </view>
      </swiper>
    </view>
-     <view class="weui-three-content">
-     <view class="weui-partOne" bindtap="goToDetail">
-      <image class="partOne-image" src="../../images/image4.png"></image>
-     </view>
-     <view class="weui-partTwo" bindtap="goToDetail">
-      <view class="weui-partTwo-one">
-        <image class="partTwo-image" src="../../images/image5.png"></image>
-      </view>
-      <view class="weui-partTwo-two" bindtap="goToDetail">
-        <image class="partTwo-image" src="../../images/image6.png"></image>
-      </view>
-     </view>
-   </view>
-   <view class="weui-modle-content" bindtap="goToDetail">
-     <image class="modle-image" src="../../images/image1.png"></image>
-     <text class="title">乐玩专区</text>
-   </view>
-   <view class="weui-modle-content" bindtap="goToDetail">
-     <image class="modle-image" src="../../images/image2.jpg"></image>
+      <view class="weui-modle-content" bindtap="goToTastDetail">
+     <image class="modle-image" src="../../images/image13.jpg"></image>
      <text class="title">品鉴专区</text>
    </view>
    <view class="weui-modle-content" bindtap="goToDetail">
-     <image class="modle-image" src="../../images/image3.jpg"></image>
+     <image class="modle-image" src="../../images/image10.jpg"></image>
+     <text class="title">乐玩专区</text>
+   </view>
+   <view class="weui-modle-content" bindtap="goToDetail">
+     <image class="modle-image" src="../../images/image9.jpg"></image>
      <text class="title">好物专区</text>
+   </view>
+  <view class="weui-modle-content" bindtap="goToDetail">
+     <image class="modle-image" src="../../images/image12.jpg"></image>
+     <text class="title">I派专区</text>
    </view>
   </view>
 </view>

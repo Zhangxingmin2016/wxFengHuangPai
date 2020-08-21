@@ -42,7 +42,7 @@
         <text class="year">2019</text> 
        </view>
        <view class="box3-image">
-        <image src="../../images/image7.jpg"></image>
+        <image src="../../images/image12.jpg" bindtap="goToVideo"></image>
        </view>
        <view class="box3-des">
        <text>内蒙古7日自驾游</text>
@@ -55,7 +55,7 @@
         <text class="year">2018</text> 
        </view>
        <view class="box3-image">
-        <image mode="aspectFill" src="../../images/image7.jpg"></image>
+        <image mode="aspectFill" src="../../images/image13.jpg" bindtap="goToVideo"></image>
        </view>
        <view class="box3-des">
        <text>内蒙古3日自驾游</text>
@@ -68,7 +68,7 @@
         <text class="year">2016</text> 
        </view>
        <view class="box3-image">
-        <image src="../../images/image7.jpg"></image>
+        <image src="../../images/image9.jpg" bindtap="goToVideo"></image>
        </view>
        <view class="box3-des">
        <text>内蒙古5日自驾游</text>

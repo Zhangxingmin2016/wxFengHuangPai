@@ -1,0 +1,77 @@
+.zw-word{
+  margin: 5rpx 4% 0;
+}
+.n-title{
+  font-size: 42rpx;
+  color: #000;
+  font-weight: bold;
+}
+.n-infor{
+  display: flex;
+  justify-content: space-between;
+  margin: 20rpx 0 30rpx;
+}
+.n-i-left{
+  display: flex;
+  flex-direction: row;
+}
+.n-i-st{
+  display: flex;
+  flex-direction: column;
+}
+.n-i-logo{
+  width: 56rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+  border-radius: 50%;
+  background: #eeab8a;
+  text-align: center;
+  font-size: 24rpx;
+  color: #fff;
+  margin-right: 15rpx;
+}
+.n-i-source{
+  font-size: 28rpx;
+  color: #000;
+  font-weight: bold;
+}
+.n-i-time{
+  font-size: 20rpx;
+  color: #999;
+}
+.n-i-subscribe{
+  width: 80rpx;
+  height: 40rpx;
+  margin-top: 10rpx;
+}
+.n-i-subscribe image{
+  width: 100%;
+  height: 40rpx;
+}
+.n-words{
+  margin: 10rpx 0 20rpx;
+}
+.n-words text{
+  font-size: 32rpx;
+  line-height: 48rpx;
+  color: #4c4c4c;
+}
+.n-detailPic{
+  width: 100%;
+}
+.n-detailPic image{
+  width: 100%;
+  height: 406rpx;
+}
+.n-detailPic text{
+  font-size: 24rpx;
+  color: #727272;
+  margin: 30rpx 0;
+}
+.n-words .n-title{
+  display: block;
+  font-weight: 34rpx;
+  color: #4c4c4c;
+  font-weight: bold;
+  margin: 20rpx 0;
+}

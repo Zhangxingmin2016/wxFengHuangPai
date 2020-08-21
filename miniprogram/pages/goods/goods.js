@@ -23,8 +23,8 @@ Page({
   goToDetail:function(){
     wx.navigateTo({ url: '/pages/detail/detail'})
   },
-  goToTastDetail:function(){
-    wx.navigateTo({ url: '/pages/TastingGroup/detail'})
+  goToVideo:function(e){
+    wx.navigateTo({ url: '/pages/video/video'})
   },
   
   /**

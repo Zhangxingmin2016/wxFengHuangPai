@@ -1,0 +1,62 @@
+<view class='content-container'>
+  <view>
+    <view class="title">
+       凤凰品鉴团
+    </view>
+    <view class="modle-box">
+       <view class="banner" bindtap="goTastDetail">
+        <view class="banner-left">
+          <text>影院重启，久别重逢！ 《多力特的奇幻冒险》中国首映</text>
+        </view>
+        <view class="banner-right">
+          <image class="banner-image" src="../../images/image15.jpg"></image>
+        </view>
+       </view>
+      <text class="tip">凤凰网广东综合</text>
+    </view>  
+    <view class="modle-box">
+       <view class="banner" bindtap="goTastDetailVideo">
+        <view class="banner-left">
+          <text>视频 | 远观城市灯火，这间西餐厅贩售生活美学</text>
+        </view>
+        <view class="banner-right">
+          <image class="banner-image" src="../../images/image16.jpg"></image>
+        </view>
+       </view>
+      <text class="tip">凤凰网广东综合</text>
+    </view> 
+    <view class="modle-box">
+       <view class="banner" bindtap="goTastDetail">
+        <view class="banner-left">
+          <text>凰家连环话｜用分享拉近距离 用美味治愈生活</text>
+        </view>
+        <view class="banner-right">
+          <image class="banner-image" src="../../images/image17.jpg"></image>
+        </view>
+       </view>
+      <text class="tip">凤凰网广东综合</text>
+    </view>
+    <view class="modle-box">
+       <view class="banner" bindtap="goTastDetail">
+        <view class="banner-left">
+          <text>功夫客|一盅两件叹茶点 偷得浮生半日闲</text>
+        </view>
+        <view class="banner-right">
+          <image class="banner-image" src="../../images/image18.jpg"></image>
+        </view>
+       </view>
+      <text class="tip">凤凰网广东综合</text>
+    </view>
+    <view class="modle-box">
+       <view class="banner" bindtap="goTastDetail">
+        <view class="banner-left">
+          <text>凰家连环话|探寻潮汕的味觉密码</text>
+        </view>
+        <view class="banner-right">
+          <image class="banner-image" src="../../images/image19.jpg"></image>
+        </view>
+       </view>
+      <text class="tip">凤凰网广东综合</text>
+    </view>     
+  </view>
+</view>

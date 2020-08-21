@@ -11,8 +11,8 @@
           </view>
         </view>
         <view class="content">
-          <image class="content-img" src="../../images/detail_common.png" bindtap="goToVideo"></image>
-          <text class="content-des">简介： 这个产品也不错， 小编没有描述一下吗？</text>
+          <image class="content-img" src="../../images/image20.jpg" bindtap="goToVideo"></image>
+          <text class="content-des">简介： 向世界出发｜内蒙古成人礼 发起人VCR </text>
         </view>
         <view class="message">
           <text class="msg-top">129 参与 ∙ 333凤币 ∙ 1.5万+观看</text>
@@ -30,7 +30,7 @@
         </view>
       </view>
       <view class="content">
-        <image  bindtap="goToVideo" class="content-img" src="../../images/detail_common.png"></image>
+        <image  bindtap="goToVideo" class="content-img" src="../../images/image8.jpg"></image>
         <text class="content-des">简介： 这个产品也不错， 小编没有描述一下吗？</text>
       </view>
       <view class="message">
@@ -49,7 +49,7 @@
         </view>
       </view>
       <view class="content">
-        <image  bindtap="goToVideo" class="content-img" src="../../images/detail_common.png"></image>
+        <image  bindtap="goToVideo" class="content-img" src="../../images/image10.jpg"></image>
         <text class="content-des">简介： 这个产品也不错， 小编没有描述一下吗？</text>
       </view>
       <view class="message">

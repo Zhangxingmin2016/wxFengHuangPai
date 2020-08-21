@@ -20,11 +20,14 @@ Page({
       }
     ]
   },
-  goToDetail:function(){
-    wx.navigateTo({ url: '/pages/detail/detail'})
+  goTastDetail:function(e){
+    wx.navigateTo({ url: '/pages/TastingDetail/detail'})
   },
-  goToTastDetail:function(){
-    wx.navigateTo({ url: '/pages/TastingGroup/detail'})
+  goTastDetailVideo:function(e){
+    wx.navigateTo({ url: '/pages/TastingDetailVideo/detail'})
+  },
+  goToTourist:function(e){
+    wx.navigateTo({ url: '/pages/tourist/tourist'})
   },
   
   /**

@@ -6,7 +6,7 @@ Page({
   data: {
     commentList: [],
     fileList: [],
-    videoSrc: 'https://apd-98dd0664cb26afd9ac83d677d75704c8.v.smtcdns.com/vweishi.tc.qq.com/AX3xB0rsuuk4UjM2nc_iPEx5K81IABCsRd2T2-bWhljs/svp_1047/shg_1047_1047_0bf2auammaaasuaegwjhijprobieyyjabqsa.f70.mp4?sdtfrom=v1105&guid=048c143ac6482ff0ca47648f7eb264ea&vkey=027717D72E3DD81AC50E88FA354B2B5F9939D12372D5A905BD223EC5F38BE980375902AA44C9A7BAF198F185C8AE02C9540E4DFB9F3EB1107DCD2CAF92297FDACD1F251B40749BC78423A3318956EA0942CEF15AF49502C39D08C602A07AA46830D643545ECB48365F034A1E33D12921AA27D70B2181CE86C5075F3DA45B7EE7' 
+    videoSrc: 'https://7a68-zhangxingmin2020-1y0yo-1302682090.tcb.qcloud.la/demo/video.mp4?sign=40880aaf798e371f4bfd659e3b65bb20&t=1597736034' 
   },
   getCommentList: function (e) {
      wx.cloud.callFunction({
